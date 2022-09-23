@@ -1,6 +1,6 @@
 # Set compiler to g++ or clang++ as needed
 CXX := g++
-CXXFLAGS := -g -O2 -Wall -std=c++20
+CXXFLAGS := -g -O2 -Wall -std=c++2a
 LDFLAGS := 
 
 ifeq ($(CXX), clang++)
