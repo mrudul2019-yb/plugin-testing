@@ -9,5 +9,5 @@ int main(){
     cout<<"Testing git\n";
     cout<<"Yay! Working...\n";
     cout<<"Auto Save working?\n";
-    cout<<
+    cout<<"auto run on save working?\n";
 }
