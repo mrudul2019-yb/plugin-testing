@@ -8,4 +8,5 @@ int main(){
     cout<<"Testing git\n";
     cout<<"Testing git\n";
     cout<<"Yay! Working...\n";
+    cout<<"Auto Save working?\n";
 }
