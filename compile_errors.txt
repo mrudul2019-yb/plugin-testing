@@ -1,0 +1,4 @@
+testing.cpp: In function ‘int main()’:
+testing.cpp:13:1: error: expected primary-expression before ‘}’ token
+   13 | }
+      | ^
