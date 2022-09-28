@@ -10,4 +10,5 @@ int main(){
     cout<<"Yay! Working...\n";
     cout<<"Auto Save working?\n";
     cout<<"auto run on save working?\n";
+    cout<<"auto run on save working?\n";
 }
