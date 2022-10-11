@@ -26,6 +26,9 @@ $(PROG): $(MAIN).cpp
 	$(CXX) $(MAIN).cpp $(CXXFLAGS) $(LDFLAGS) -o $(PROG) > $(CT_ERR) 2>&1
 
 
+abort:
+	pkill $()
+
 clean: 
 	rm $(PROG)
 
