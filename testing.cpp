@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
 
-    sleep(5);
+    sleep(8);
     cout<<"Hellooo!\n";
     cout<<"Hellooo!\n";
 
