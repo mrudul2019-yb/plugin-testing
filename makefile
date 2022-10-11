@@ -19,7 +19,7 @@ PROG = $(MAIN)
 # $(CXX) $(MAIN).cpp $(CXXFLAGS) $(LDFLAGS)-l$(LIB) -o $(PROG) > $(CT_ERR) 2>&1
 
 run: $(PROG)		
-	timeout $(TIMEOUT) ./$(PROG) > $(OUTPUT) 2> $(RT_ERR)
+	 ./$(PROG) > $(OUTPUT) 2> $(RT_ERR)
 
 
 $(PROG): $(MAIN).cpp
