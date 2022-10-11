@@ -7,10 +7,7 @@ using namespace std;
 
 int main(){
 
-    sleep(3);
-    cout<<"Hellooo!\n";
-    cout<<"Hellooo!\n";
-    cout<<"Hellooo!\n";
+    // sleep(8);
     cout<<"Hellooo!\n";
     cout<<"Hellooo!\n";
 }
