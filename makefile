@@ -27,7 +27,7 @@ $(PROG): $(MAIN).cpp
 
 
 abort:
-	pkill $()
+	pkill $(MAIN)
 
 clean: 
 	rm $(PROG)
