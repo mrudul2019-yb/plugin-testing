@@ -4,10 +4,12 @@
 
 using namespace std;
 
+int LIMIT = 1000000;
 
 int main(){
-
-    sleep(8);
+    int t = 0;
+    while(LIMIT--)t++;
+    cout<<t<<"\n";
     cout<<"Hellooo!\n";
     cout<<"Hellooo!\n";
 
