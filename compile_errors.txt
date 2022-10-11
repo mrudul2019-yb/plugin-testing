@@ -1,0 +1,8 @@
+testing.cpp: In function ‘int main()’:
+testing.cpp:10:11: error: too few arguments to function ‘unsigned int sleep(unsigned int)’
+   10 |     sleep()
+      |           ^
+In file included from testing.cpp:3:
+/usr/include/unistd.h:444:21: note: declared here
+  444 | extern unsigned int sleep (unsigned int __seconds);
+      |                     ^~~~~
