@@ -11,7 +11,7 @@ endif
 CT_ERR = compile_errors.txt
 RT_ERR = runtime_errors.txt
 OUTPUT = output.txt
-TIMEOUT = 20s
+TIMEOUT = 10s
 
 MAIN = testing
 PROG = $(MAIN)
