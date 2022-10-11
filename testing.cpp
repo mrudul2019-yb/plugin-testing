@@ -10,4 +10,7 @@ int main(){
     sleep(3);
     cout<<"Hellooo!\n";
     cout<<"Hellooo!\n";
+    cout<<"Hellooo!\n";
+    cout<<"Hellooo!\n";
+    cout<<"Hellooo!\n";
 }
