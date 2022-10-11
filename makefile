@@ -11,6 +11,7 @@ endif
 CT_ERR = compile_errors.txt
 RT_ERR = runtime_errors.txt
 OUTPUT = output.txt
+TIMEOUT = 10s
 
 MAIN = testing
 PROG = $(MAIN)
@@ -18,7 +19,7 @@ PROG = $(MAIN)
 # $(CXX) $(MAIN).cpp $(CXXFLAGS) $(LDFLAGS)-l$(LIB) -o $(PROG) > $(CT_ERR) 2>&1
 
 run: $(PROG)		
-	./$(PROG) > $(OUTPUT) 2> $(RT_ERR)
+	timeout $(TIMEOUT) ./$(PROG) > $(OUTPUT) 2> $(RT_ERR)
 
 
 $(PROG): $(MAIN).cpp
