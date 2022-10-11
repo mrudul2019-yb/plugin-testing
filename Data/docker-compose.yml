@@ -1,0 +1,11 @@
+version: '3'
+services:
+  assignment-container:
+    image: f20180196/csf111-cp:0.1.1
+    volumes: 
+      - ..:/usr/src/assignment # mounting of type bind but in relative(to .yml) path style
+    working_dir: /usr/src/assignment
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    entrypoint: ["/bin/bash"]
+    container_name: csf111-template # container name will be exactly this

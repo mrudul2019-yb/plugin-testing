@@ -8,6 +8,8 @@ using namespace std;
 int main(){
 
     // sleep(5);
-    cout<<"Checking RTE\n";
+    cout<<"Checking Vscode in docker container\n";
+    cout<<"Checking Vscode in docker container\n";
+    cout<<"Checking Vscode in docker container\n";
 
 }
