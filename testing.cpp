@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int LIMIT = 1e8;
+long long int LIMIT = 1e10;
 
 int main(){
     int t = 0;
