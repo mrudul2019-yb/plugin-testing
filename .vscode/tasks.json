@@ -1,7 +1,7 @@
 {
     "tasks": [
         {
-            "label": "One",
+            "label": "af:auto-run",
             "type": "shell",
             "command": "echo Hello ",
             "options": {
