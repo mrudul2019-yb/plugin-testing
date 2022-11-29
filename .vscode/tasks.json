@@ -1,9 +1,9 @@
 {
     "tasks": [
         {
+            "label": "One",
             "type": "shell",
-            "label": "af-testing",
-            "command": "make",
+            "command": "echo Hello ",
             "options": {
                 "cwd": "${workspaceFolder}"
             }
