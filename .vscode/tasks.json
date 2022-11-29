@@ -3,7 +3,7 @@
         {
             "label": "af:auto-run",
             "type": "shell",
-            "command": "echo Hello ",
+            "command": "make",
             "options": {
                 "cwd": "${workspaceFolder}"
             }
