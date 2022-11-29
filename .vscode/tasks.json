@@ -1,0 +1,14 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "af-testing",
+            "command": "make",
+            "group": "test",
+            "options": {
+                "cwd": "${fileDirname}"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
