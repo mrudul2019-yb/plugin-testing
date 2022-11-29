@@ -4,7 +4,6 @@
             "type": "shell",
             "label": "af-testing",
             "command": "make",
-            "group": "test",
             "options": {
                 "cwd": "${workspaceFolder}"
             }
