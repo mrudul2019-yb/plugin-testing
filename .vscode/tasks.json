@@ -6,7 +6,7 @@
             "command": "make",
             "group": "test",
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${workspaceFolder}"
             }
         }
     ],
